@@ -1,10 +1,4 @@
-# Base de datos
-config/db.php
-tienda.db
-
-# Subidas de usuarios
+*.db
+*.sqlite
 uploads/
-
-# Archivos de sistema
-.devcontainer/
-.DS_Store
+config/db.php
