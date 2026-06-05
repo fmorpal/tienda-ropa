@@ -1,0 +1,9 @@
+{
+  "name": "Tienda Ropa PRO",
+  "image": "mcr.microsoft.com/devcontainers/php:8.2",
+  "features": {
+    "ghcr.io/devcontainers/features/mysql:1": {}
+  },
+  "postCreateCommand": "sudo apt update && sudo apt install php-mysql -y",
+  "forwardPorts": [8000, 3306]
+}
