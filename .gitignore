@@ -1,4 +1,13 @@
+# Base de datos
 *.db
 *.sqlite
-uploads/
+
+# Configuración sensible
 config/db.php
+
+# Subidas de usuarios
+uploads/
+
+# Sistema / entorno
+.devcontainer/
+.DS_Store
