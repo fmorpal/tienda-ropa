@@ -1,0 +1,10 @@
+# Base de datos
+config/db.php
+tienda.db
+
+# Subidas de usuarios
+uploads/
+
+# Archivos de sistema
+.devcontainer/
+.DS_Store
